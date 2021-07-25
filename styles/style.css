@@ -26,12 +26,12 @@ h6{
 }
 
 /* --------------nav----------- */
-nav{
+.navclass{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-nav p, a{
+.navclass p, a{
     color: white;
 }
 
