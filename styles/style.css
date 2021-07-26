@@ -323,9 +323,52 @@ footer p, a{
 }
 
 /* Mobile Device */
-@media only screen and (max-width: 688px){
+@media only screen and (max-width: 320px){
     header{
-        background-size: 360% 93%;
+        background-size: 400% 93%;
+    }
+    .navclass{
+        justify-content:space-around;
+        align-items:center;
+    }
+    .nav-mobile{
+        display: block;
+    }
+    .nav-all-device{
+        display: none;
+    }
+    .media video{
+        width: 95%;
+        height: 70%;
+    }
+    .sample-form{
+        width: 90%;
+        height: 70%;
+        padding: 10px 5px;
+        flex-direction: column;
+    }
+    .main-feature{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+    .messaging2{
+        padding-left: 10px;
+        left: 35px;
+    }
+    .messaging1, .messaging3{
+        padding-left: 10px;
+        left: 25px;
+    }
+    .offers{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0px 15px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width:688px){
+    header{
+        background-size: 380% 93%;
     }
     .navclass{
         justify-content:space-around;
@@ -364,4 +407,47 @@ footer p, a{
         grid-template-columns: repeat(1,1fr);
         padding: 0px 15px;
     }
-} 
+}
+
+@media only screen and (min-width: 280px) and (max-width:319px){
+    header{
+        background-size: 470% 93%;
+    }
+    .navclass{
+        justify-content:space-around;
+        align-items:center;
+    }
+    .nav-mobile{
+        display: block;
+    }
+    .nav-all-device{
+        display: none;
+    }
+    .media video{
+        width: 95%;
+        height: 70%;
+    }
+    .sample-form{
+        width: 90%;
+        height: 70%;
+        padding: 10px 5px;
+        flex-direction: column;
+    }
+    .main-feature{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+    .messaging2{
+        padding-left: 10px;
+        left: 0px;
+    }
+    .messaging1, .messaging3{
+        padding-left: 10px;
+        left: -9px;
+    }
+    .offers{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0px 15px;
+    }
+}
