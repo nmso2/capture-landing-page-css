@@ -31,6 +31,9 @@ h6{
     justify-content: space-around;
     align-items: center;
 }
+.nav-mobile{
+    display: none;
+}
 .navclass p{
     color: white;
 }
@@ -318,3 +321,23 @@ footer p, a{
     }
 
 }
+
+/* Mobile Device */
+@media only screen and (max-width: 688px){
+    header{
+        background-size: 360% 93%;
+    }
+    .navclass{
+        justify-content:space-around;
+        align-items:center;
+    }
+    .nav-mobile{
+        display: block;
+    }
+    .nav-all-device{
+        display: none;
+    }
+    .media video{
+        width: 100%;
+    }
+} 
