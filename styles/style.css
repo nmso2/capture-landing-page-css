@@ -249,7 +249,7 @@ ul {
     grid-template-columns: repeat(2,1fr);
     grid-auto-flow:row;
     align-items: center;
-    justify-items: center;
+    justify-items:center;
 }
 .offers h6,p{
     margin: 16px;
@@ -284,4 +284,37 @@ footer{
 }
 footer p, a{
     color: #86899B;
+}
+
+/* -------------Media query-------- */
+
+/* Tablet Device */
+@media only screen and (min-width: 688px) and (max-width:992px){
+    header{
+        background-size: 175% 93%;
+    }
+    .main-feature{
+        padding-left: 10px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 44px;
+      }
+
+      .messaging2{
+        padding-left: 10px;
+        left: 100px;
+    }
+      .messaging1, .messaging3{
+        padding-left: 10px;
+        left: 60px;
+    }
+    .highlight-selling-points{
+        padding: 0px 10px;
+    }
+    .offer-features{
+        column-gap: 12px;
+    }
+
 }
