@@ -303,13 +303,13 @@ footer p, a{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-row-gap: 44px;
-      }
+    }
 
-      .messaging2{
+    .messaging2{
         padding-left: 10px;
         left: 100px;
     }
-      .messaging1, .messaging3{
+    .messaging1, .messaging3{
         padding-left: 10px;
         left: 60px;
     }
@@ -338,7 +338,30 @@ footer p, a{
         display: none;
     }
     .media video{
+        width: 95%;
+        height: 70%;
+    }
+    .sample-form{
         width: 90%;
         height: 70%;
+        padding: 10px 5px;
+        flex-direction: column;
+    }
+    .main-feature{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+    .messaging2{
+        padding-left: 10px;
+        left: 70px;
+    }
+    .messaging1, .messaging3{
+        padding-left: 10px;
+        left: 40px;
+    }
+    .offers{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0px 15px;
     }
 } 
