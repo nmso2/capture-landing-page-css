@@ -338,6 +338,7 @@ footer p, a{
         display: none;
     }
     .media video{
-        width: 100%;
+        width: 90%;
+        height: 70%;
     }
 } 
